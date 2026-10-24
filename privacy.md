@@ -12,7 +12,7 @@ This app is a private, single-user tool. It uploads photos and videos the owner 
 
 ## Google user data the app accesses
 
-The app requests two Google Photos permissions: adding media to the library, and reading the media items and albums the app itself created. It uses them only to upload files, place them in albums, and confirm that each upload succeeded. It cannot read photos it did not upload.
+The app requests three Google Photos permissions: adding media to the library, reading the media items and albums the app itself created, and editing the details (such as descriptions) of those same items and albums. It uses them only to upload files, place them in albums, confirm that each upload succeeded, and correct descriptions it set. It cannot read or change photos it did not upload.
 
 ## How data is stored and shared
 
