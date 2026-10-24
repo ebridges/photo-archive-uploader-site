@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Sapphire palette replacing Cayman's teal/green defaults.
+$sapphire-deep: #0b2a6f;
+$sapphire: #0f52ba;
+$sapphire-light: #3a7bd5;
+
+.page-header {
+  background-color: $sapphire;
+  background-image: linear-gradient(120deg, $sapphire-deep, $sapphire-light);
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $sapphire;
+  }
+
+  a {
+    color: $sapphire-light;
+  }
+
+  blockquote {
+    border-left-color: $sapphire-light;
+  }
+}
